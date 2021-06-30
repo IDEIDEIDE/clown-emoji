@@ -1,0 +1,23 @@
+h3{
+    font-size: 25px !important
+}
+
+btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: coolkid;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+@keyframes coolkid{
+    33%{box-shadow: 1px 1px 38px red;}
+    66%{box-shadow: 1px 1px 38px yellow;}
+    100%{box-shadow: 1px 1px 38px red;}
+}
+body{
+    background-image: url("background.jpg");
+}
